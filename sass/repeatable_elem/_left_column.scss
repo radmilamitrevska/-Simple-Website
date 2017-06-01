@@ -1,0 +1,28 @@
+/* Left column style goes here */
+.side-nav {
+  float: left;
+  width: 200px;
+  background-color: $brand-primary;
+  @include mobile() {
+    display: none;
+  }
+  @include small-dev() {
+    display: none;
+  }
+  .left-side-nav {
+    display: flex;
+    flex-direction: column;
+    a {
+      padding: 10px;
+      color: #fff;
+      font-size: 16px;
+      border-bottom: 1px solid #fff;
+      @include transition(all 0.3s);
+      &:hover,
+      &.active {
+        color: #000;
+        padding-left: 15px;
+      }
+    }
+  }
+}

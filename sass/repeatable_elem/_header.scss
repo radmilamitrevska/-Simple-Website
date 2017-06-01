@@ -1,0 +1,72 @@
+/* Header style goes here */
+.header {
+  width: 100%;
+  position: fixed;
+  align-items: center;
+  height: 60px;
+  background: black;
+  color: white;
+  padding: 0 10px;
+  .header-inline {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-left-content {
+    display: flex;
+  }
+  .logo svg {
+    width: 150px;
+    @include small-dev() {
+      width: 100px;
+    }
+  }
+  // Header navigation
+  .header-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+      a {
+        color: #fff;
+        font-size: 20px;
+        text-transform: uppercase;
+        margin: 0 10px;
+        @include transition(color 0.3s);
+        &:last-child {
+          color: yellow;
+        }
+        &:hover {
+          color: $brand-primary
+        }
+        @include mobile() {
+          font-size: 16px;
+        }
+        @include small-dev() {
+          font-size: 12px;
+          margin: 0 5px;
+        }
+      }
+  }
+  // Header menu navigation
+  .menu-icon {
+    display: none;
+    @include mobile() {
+      display: block;
+    }
+    @include small-dev() {
+      display: block;
+    }
+    svg {
+      fill: $brand-primary;
+      width: 30px;
+      margin-right: 20px;
+      cursor: pointer;
+      @include transition(fill 0.3s);
+      &:hover {
+        fill: $brand-primary-light;
+      }
+    }
+  }
+}

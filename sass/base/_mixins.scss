@@ -1,0 +1,77 @@
+/* Mixin
+ * In this file you should write mixins
+ * Import this file using the following HTML or equivalent:
+*/
+
+/* Border radius */
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+/* @include border-radius(5px); */
+
+/* Media queries mixin */
+@mixin small-dev {
+  @media (min-width: #{$small-devices}) and (max-width: #{$mobile-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (min-width: #{$mobile-width}) and (max-width: #{$tablet-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (max-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+/* Transition mixin */
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
+/* Placeholder mixin */
+@mixin placeholder(){
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    @content
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    @content
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    @content
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    @content
+  }
+}
+
+/* Box-shadow */
+@mixin box-shadow($top, $left, $blur, $size, $color, $inset: false) {
+    @if $inset {
+        -webkit-box-shadow:inset $top $left $blur $size $color;
+        -moz-box-shadow:inset $top $left $blur $size $color;
+        box-shadow:inset $top $left $blur $size $color;
+    } @else {
+        -webkit-box-shadow: $top $left $blur $size $color;
+        -moz-box-shadow: $top $left $blur $size $color;
+        box-shadow: $top $left $blur $size $color;
+    }
+}
+/* @include box-shadow(1px,1px,1px,0, #fff, true); */

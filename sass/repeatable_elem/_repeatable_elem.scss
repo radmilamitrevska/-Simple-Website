@@ -1,0 +1,38 @@
+/* Repeatable elements, like buttons, links  */
+
+/* Buttons */
+
+//Default button
+.btn {
+  display: inline-flex;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  padding: 5px 10px;
+  margin: 5px;
+  @include border-radius(2px);
+  @include transition(color 0.3s);
+  &.wider {
+    padding: 10px 30px;
+  }
+  &.smaller {
+    padding: 2px 6px;
+  }
+  &:hover {
+    color: #000;
+  }
+}
+
+// Green button
+.green-btn {
+  @extend .btn;
+  background: green;
+}
+
+// Blue button
+.blue-btn {
+  @extend .btn;
+  background: blue;
+}
+
+/* Buttons */

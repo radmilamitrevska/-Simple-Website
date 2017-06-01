@@ -1,0 +1,21 @@
+/* Main page for importing other style pages /*
+/* Import base styles */
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+@import "variables";
+
+
+/* Import base styles */
+@import "base/mixins";
+@import "base/font_generator";
+@import "base/global";
+
+/* Import repeatable styles */
+@import "repeatable_elem/header";
+@import "repeatable_elem/left_column";
+@import "repeatable_elem/footer";
+@import "repeatable_elem/article";
+@import "repeatable_elem/repeatable_elem";
+
+@import "pages/mainpage";
+

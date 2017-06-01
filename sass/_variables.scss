@@ -1,0 +1,36 @@
+/* Style for defining main variables */
+$main-bg-color: #fff;
+$main-font-color: #434a54;
+$main-font-size: 14px;
+
+/* Fonts */
+$roboto-regular: 'robotoregular';
+
+/* Break points */
+$small-devices: 320px;
+$mobile-width: 481px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+// Body
+$body-bg: #f5f8fa;
+
+// Borders
+$laravel-border-color: darken($body-bg, 10%);
+$list-group-border: $laravel-border-color;
+$navbar-default-border: $laravel-border-color;
+$panel-default-border: $laravel-border-color;
+$panel-inner-border: $laravel-border-color;
+
+// Brands
+$brand-primary: #d13060;
+$brand-primary-light: lighten(#d13060, 20%);
+$brand-info: #8eb4cb;
+$brand-success: #2ab27b;
+$brand-warning: #cbb956;
+$brand-danger: #bf5329;
+
+// Typography
+$font-size-base: 14px;
+$line-height-base: 1.6;
+$text-color: #636b6f;
