@@ -1,1 +1,346 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@font-face{font-family:robotoregular;src:url(font/roboto-regular-webfont.3e588f477d1e058226b2d37d2a6374f1.woff2) format("woff2"),url(font/roboto-regular-webfont.08a62d9ad4c7e8b3e0a35089e0f18de0.woff) format("woff");font-weight:400;font-style:normal}a,abbr,acronym,address,applet,article,aside,audio,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,html,iframe,img,ins,kbd,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,ul,var,video{margin:0;padding:0;border:0;vertical-align:baseline;outline:none;text-decoration:none;line-height:100%;text-align:left;font-family:robotoregular;font-size:16px}article,aside,details,figcaption,figure,footer,header,menu,nav,section{display:block}@media (-ms-high-contrast:none),screen and (-ms-high-contrast:active){html{height:100%}}body{line-height:1;height:100%;display:flex;flex-direction:column;min-height:100vh}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:"";content:none}table{border-collapse:collapse;border-spacing:0}* :focus,a:active{outline:none}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;-webkit-appearance:none;-moz-appearance:none;appearance:none}p{margin-bottom:0}a:hover{text-decoration:none}.clearfix:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}.clearfix{display:inline-block}html[xmlns] .clearfix{display:block}* html .clearfix{height:1%}h1{font-size:30px}h2{font-size:28px}h3{font-size:24px}h4{font-size:20px}p{font-size:16px}.full-width{width:100%;display:flex;justify-content:center}.fixed-width{width:100%;max-width:1200px}.header{width:100%;position:fixed;align-items:center;height:60px;background:#000;color:#fff;padding:0 10px}.header .header-inline{width:100%;display:flex;justify-content:space-between;align-items:center}.header .header-left-content{display:flex}.header .logo svg{width:150px}@media (min-width:320px) and (max-width:480px){.header .logo svg{width:100px}}.header .header-nav{list-style-type:none;margin:0;padding:0;display:flex}.header .header-nav a{color:#fff;font-size:20px;text-transform:uppercase;margin:0 10px;-webkit-transition:color .3s;-moz-transition:color .3s;-ms-transition:color .3s;-o-transition:color .3s;transition:color .3s}.header .header-nav a:last-child{color:#ff0}.header .header-nav a:hover{color:#d13060}@media (min-width:481px) and (max-width:767px){.header .header-nav a{font-size:16px}}@media (min-width:320px) and (max-width:480px){.header .header-nav a{font-size:12px;margin:0 5px}}.header .menu-icon{display:none}@media (min-width:481px) and (max-width:767px){.header .menu-icon{display:block}}@media (min-width:320px) and (max-width:480px){.header .menu-icon{display:block}}.header .menu-icon svg{fill:#d13060;width:30px;margin-right:20px;cursor:pointer;-webkit-transition:fill .3s;-moz-transition:fill .3s;-ms-transition:fill .3s;-o-transition:fill .3s;transition:fill .3s}.header .menu-icon svg:hover{fill:#e483a0}.side-nav{float:left;width:200px;background-color:#d13060}@media (min-width:481px) and (max-width:767px){.side-nav{display:none}}@media (min-width:320px) and (max-width:480px){.side-nav{display:none}}.side-nav .left-side-nav{display:flex;flex-direction:column}.side-nav .left-side-nav a{padding:10px;color:#fff;font-size:16px;border-bottom:1px solid #fff;-webkit-transition:all .3s;-moz-transition:all .3s;-ms-transition:all .3s;-o-transition:all .3s;transition:all .3s}.side-nav .left-side-nav a.active,.side-nav .left-side-nav a:hover{color:#000;padding-left:15px}.footer{display:flex;align-items:center;justify-content:center;position:relative;z-index:100;height:120px;background:#000;color:#fff;padding:0 10px}.article-title{padding:0 0 30px;color:#d13060}.article-des{padding:0 0 20px;line-height:20px;color:#aab4cc}.article-des a{font-size:16px;color:#d13060}.article-des a:hover{text-decoration:underline}.article-img{display:flex;justify-content:center}.article-img img{width:100%;max-width:300px;height:300px;object-fit:cover;-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;border-radius:5px;-webkit-box-shadow:4px 4px 9px 0 #ddd;-moz-box-shadow:4px 4px 9px 0 #ddd;box-shadow:4px 4px 9px 0 #ddd}.buttons-content{padding:20px 0}.blue-btn,.btn,.green-btn{display:inline-flex;border:none;cursor:pointer;color:#fff;padding:5px 10px;margin:5px;-webkit-border-radius:2px;-moz-border-radius:2px;-ms-border-radius:2px;border-radius:2px;-webkit-transition:color .3s;-moz-transition:color .3s;-ms-transition:color .3s;-o-transition:color .3s;transition:color .3s}.btn.wider,.wider.blue-btn,.wider.green-btn{padding:10px 30px}.btn.smaller,.smaller.blue-btn,.smaller.green-btn{padding:2px 6px}.blue-btn:hover,.btn:hover,.green-btn:hover{color:#000}.green-btn{background:green}.blue-btn{background:blue}.page-wrap{flex-grow:1;padding-top:60px}.page-wrap .page-wrap-inner{display:flex}.main-content{float:left;display:flex;width:100%;margin-left:-200px;padding:20px 20px 20px 220px}@media (min-width:481px) and (max-width:767px){.main-content{padding:20px;margin:0}}@media (min-width:320px) and (max-width:480px){.main-content{padding:20px;margin:0}}
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);/* Main page for importing other style pages /*
+/* Import base styles */
+/* Style for defining main variables */
+/* Fonts */
+/* Break points */
+/* Import base styles */
+/* Mixin
+ * In this file you should write mixins
+ * Import this file using the following HTML or equivalent:
+*/
+/* Border radius */
+/* @include border-radius(5px); */
+/* Media queries mixin */
+/* Transition mixin */
+/* Placeholder mixin */
+/* Box-shadow */
+/* @include box-shadow(1px,1px,1px,0, #fff, true); */
+/* Style for font-generator here */
+/* Roboto Regular */
+@font-face {
+  font-family: 'robotoregular';
+  src: url(font/roboto-regular-webfont.3e588f477d1e058226b2d37d2a6374f1.woff2) format("woff2"), url(font/roboto-regular-webfont.08a62d9ad4c7e8b3e0a35089e0f18de0.woff) format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Global style
+ * In this file you should write global roles
+ * Import this file using the following HTML or equivalent:
+*/
+/**************************
+*      GENERAL STYLES     *
+**************************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  outline: none;
+  text-decoration: none;
+  line-height: 100%;
+  text-align: left;
+  font-family: "robotoregular";
+  font-size: 16px; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+  display: block; }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  html {
+    height: 100%; } }
+
+body {
+  line-height: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a:active {
+  outline: none; }
+
+* :focus {
+  outline: none; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
+
+p {
+  margin-bottom: 0; }
+
+a:hover {
+  text-decoration: none; }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0; }
+
+.clearfix {
+  display: inline-block; }
+
+html[xmlns] .clearfix {
+  display: block; }
+
+* html .clearfix {
+  height: 1%; }
+
+/* Typo */
+h1 {
+  font-size: 30px; }
+
+h2 {
+  font-size: 28px; }
+
+h3 {
+  font-size: 24px; }
+
+h4 {
+  font-size: 20px; }
+
+p {
+  font-size: 16px; }
+
+.full-width {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+.fixed-width {
+  width: 100%;
+  max-width: 1200px; }
+
+/* Import repeatable styles */
+/* Header style goes here */
+.header {
+  width: 100%;
+  position: fixed;
+  align-items: center;
+  height: 60px;
+  background: black;
+  color: white;
+  padding: 0 10px; }
+  .header .header-inline {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .header .header-left-content {
+    display: flex; }
+  .header .logo svg {
+    width: 150px; }
+    @media (min-width: 320px) and (max-width: 480px) {
+      .header .logo svg {
+        width: 100px; } }
+  .header .header-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; }
+    .header .header-nav a {
+      color: #fff;
+      font-size: 20px;
+      text-transform: uppercase;
+      margin: 0 10px;
+      -webkit-transition: color 0.3s;
+      -moz-transition: color 0.3s;
+      -ms-transition: color 0.3s;
+      -o-transition: color 0.3s;
+      transition: color 0.3s; }
+      .header .header-nav a:last-child {
+        color: yellow; }
+      .header .header-nav a:hover {
+        color: #d13060; }
+      @media (min-width: 481px) and (max-width: 767px) {
+        .header .header-nav a {
+          font-size: 16px; } }
+      @media (min-width: 320px) and (max-width: 480px) {
+        .header .header-nav a {
+          font-size: 12px;
+          margin: 0 5px; } }
+  .header .menu-icon {
+    display: none; }
+    @media (min-width: 481px) and (max-width: 767px) {
+      .header .menu-icon {
+        display: block; } }
+    @media (min-width: 320px) and (max-width: 480px) {
+      .header .menu-icon {
+        display: block; } }
+    .header .menu-icon svg {
+      fill: #d13060;
+      width: 30px;
+      margin-right: 20px;
+      cursor: pointer;
+      -webkit-transition: fill 0.3s;
+      -moz-transition: fill 0.3s;
+      -ms-transition: fill 0.3s;
+      -o-transition: fill 0.3s;
+      transition: fill 0.3s; }
+      .header .menu-icon svg:hover {
+        fill: #e483a0; }
+
+/* Left column style goes here */
+.side-nav {
+  float: left;
+  width: 200px;
+  background-color: #d13060; }
+  @media (min-width: 481px) and (max-width: 767px) {
+    .side-nav {
+      display: none; } }
+  @media (min-width: 320px) and (max-width: 480px) {
+    .side-nav {
+      display: none; } }
+  .side-nav .left-side-nav {
+    display: flex;
+    flex-direction: column; }
+    .side-nav .left-side-nav a {
+      padding: 10px;
+      color: #fff;
+      font-size: 16px;
+      border-bottom: 1px solid #fff;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s; }
+      .side-nav .left-side-nav a:hover, .side-nav .left-side-nav a.active {
+        color: #000;
+        padding-left: 15px; }
+
+/* Footer style goes here */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 100;
+  height: 120px;
+  background: black;
+  color: white;
+  padding: 0 10px; }
+
+/* Article style */
+.article-title {
+  padding: 0 0 30px 0;
+  color: #d13060; }
+
+.article-des {
+  padding: 0 0 20px 0;
+  line-height: 20px;
+  color: #AAB4CC; }
+  .article-des a {
+    font-size: 16px;
+    color: #d13060; }
+    .article-des a:hover {
+      text-decoration: underline; }
+
+.article-img {
+  display: flex;
+  justify-content: center; }
+  .article-img img {
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    object-fit: cover;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 4px 4px 9px 0 #ddd;
+    -moz-box-shadow: 4px 4px 9px 0 #ddd;
+    box-shadow: 4px 4px 9px 0 #ddd; }
+
+.buttons-content {
+  padding: 20px 0; }
+
+/* Repeatable elements, like buttons, links  */
+/* Buttons */
+.btn, .green-btn, .blue-btn {
+  display: inline-flex;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  padding: 5px 10px;
+  margin: 5px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s; }
+  .btn.wider, .wider.green-btn, .wider.blue-btn {
+    padding: 10px 30px; }
+  .btn.smaller, .smaller.green-btn, .smaller.blue-btn {
+    padding: 2px 6px; }
+  .btn:hover, .green-btn:hover, .blue-btn:hover {
+    color: #000; }
+
+.green-btn {
+  background: green; }
+
+.blue-btn {
+  background: blue; }
+
+/* Buttons */
+/* Main page style */
+.page-wrap {
+  flex-grow: 1;
+  padding-top: 60px; }
+  .page-wrap .page-wrap-inner {
+    display: flex; }
+
+/* Main content */
+.main-content {
+  float: left;
+  display: flex;
+  width: 100%;
+  margin-left: -200px;
+  padding: 20px 20px 20px 220px; }
+  @media (min-width: 481px) and (max-width: 767px) {
+    .main-content {
+      padding: 20px;
+      margin: 0; } }
+  @media (min-width: 320px) and (max-width: 480px) {
+    .main-content {
+      padding: 20px;
+      margin: 0; } }
